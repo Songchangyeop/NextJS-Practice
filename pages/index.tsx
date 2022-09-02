@@ -1,4 +1,6 @@
 import { useRouter } from 'next/router';
+import Head from 'next/head';
+import Seo from '../components/Seo/Seo';
 
 const Home = () => {
 	const router = useRouter();
@@ -7,7 +9,12 @@ const Home = () => {
 		router.push('/About');
 	};
 
-	return <div onClick={onMoveToAboutPage}>AboutPage로 이동</div>;
+	return (
+		<div>
+			<Seo title="Home" />
+			<h1 onClick={onMoveToAboutPage}>AboutPage로 이동</h1>;
+		</div>
+	);
 };
 
 export default Home;
