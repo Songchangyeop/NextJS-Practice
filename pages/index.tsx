@@ -12,7 +12,8 @@ const Home = () => {
 	return (
 		<div>
 			<Seo title="Home" />
-			<h1 onClick={onMoveToAboutPage}>AboutPage로 이동</h1>;
+			<img src="xxx" alt="" />
+			<h1 onClick={onMoveToAboutPage}>AboutPage로 이동</h1>
 		</div>
 	);
 };
