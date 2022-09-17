@@ -26,3 +26,4 @@ pnpm create next-app --ts
 [Next.js 알아보기](https://waitwait.tistory.com/31) <br>
 [Next.js의 \_app과 \_document 알아보기](https://waitwait.tistory.com/32) <br>
 [Next.js의 Pre-rendering](https://waitwait.tistory.com/33) <br>
+[Next.js Image 알아보기](https://waitwait.tistory.com/34) <br>
